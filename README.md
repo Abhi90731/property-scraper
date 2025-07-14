@@ -39,6 +39,14 @@ This is a **Node.js + Puppeteer** based web scraper to extract listings from pop
 
 ---
 
+## 📦 Setup
+
+```bash
+git clone https://github.com/YOUR_USERNAME/property-scraper.git
+cd property-scraper
+npm install
+```
+
 ## 🤝 Contributing
 Contributions, bug fixes, and improvements are welcome!
 
@@ -67,10 +75,3 @@ This project is open-source under the MIT License.
 
 ## 👤 Author
 Abhishek Bordoloi
-
-## 📦 Setup
-
-```bash
-git clone https://github.com/YOUR_USERNAME/property-scraper.git
-cd property-scraper
-npm install
