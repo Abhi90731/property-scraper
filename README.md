@@ -1,18 +1,47 @@
-# Remote OK Job Scraper
+# 🏠 India Property Scraper
 
-This is a simple Node.js web scraper that fetches the latest remote job listings from [Remote OK](https://remoteok.com/).
+This is a **Node.js + Puppeteer** based web scraper to extract listings from popular Indian real estate websites.
 
-## How it works
+---
 
-- Uses **Axios** to fetch the HTML.
-- Uses **Cheerio** to parse and extract job titles, companies, and links.
-- Outputs the results to `jobs.json`.
+## 📌 Supported Sites
 
-## Run it locally
+- ✅ [MagicBricks](https://www.magicbricks.com)
+- ✅ [99acres](https://www.99acres.com)
+- ✅ [Housing.com](https://housing.com)
+- ✅ [NoBroker](https://www.nobroker.in)
+- ✅ [CommonFloor](https://www.commonfloor.com)
+- ✅ [SquareYards](https://www.squareyards.com)
 
-1. Clone the repo
-2. Install dependencies:
-3. Run the scraper:
+---
 
+## 🚀 Features
 
-Check `jobs.json` for the output!
+- Uses **real Chrome** (non-headless) with stealth mode.
+- Handles **infinite scroll** and dynamic content.
+- Tries **multiple selectors** and fallback logic.
+- Extracts:
+  - Property title
+  - Link to listing
+  - Society or locality
+  - Price
+  - Description
+  - Owner/agent name or contact (if available)
+
+- Saves results to `output.json`
+
+---
+
+## ⚙️ Requirements
+
+- Node.js >= 16.x
+- Chrome installed (uses Puppeteer with your local Chrome)
+
+---
+
+## 📦 Setup
+
+```bash
+git clone https://github.com/YOUR_USERNAME/property-scraper.git
+cd property-scraper
+npm install
