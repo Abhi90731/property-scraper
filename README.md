@@ -39,6 +39,35 @@ This is a **Node.js + Puppeteer** based web scraper to extract listings from pop
 
 ---
 
+## 🤝 Contributing
+Contributions, bug fixes, and improvements are welcome!
+
+### How to contribute:
+
+⭐ Star this repo!
+
+Fork this repository
+
+Create a new branch
+```bash
+git checkout -b feature/AmazingFeature
+```
+Make your changes and commit
+```bash
+git commit -m 'Add AmazingFeature'
+```
+Push to your fork
+```bash
+git push origin feature/AmazingFeature
+```
+Open a Pull Request
+
+## ⚖️ License
+This project is open-source under the MIT License.
+
+## 👤 Author
+Abhishek Bordoloi
+
 ## 📦 Setup
 
 ```bash
